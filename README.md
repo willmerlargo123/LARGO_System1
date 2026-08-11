@@ -1,4 +1,4 @@
-# YourLastName_System1 — Hotel System (Main CRUD Application)
+# LARGO_System1 — Hotel System (Main CRUD Application)
 
 Full CRUD web app for managing hotel rooms. Runs on **port 80** inside the
 Docker environment (see the `YourLastName_DockerCodebase` repo for
