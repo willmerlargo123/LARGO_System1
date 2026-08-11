@@ -1,0 +1,56 @@
+* { box-sizing: border-box; }
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f4f6f8;
+  margin: 0;
+  color: #2c3e50;
+}
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+h1 { color: #1a2733; }
+.btn {
+  display: inline-block;
+  background: #2c3e50;
+  color: #fff;
+  padding: 10px 18px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 10px 0;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+.btn.secondary { background: #95a5a6; margin-left: 8px; }
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+th, td { padding: 12px; border-bottom: 1px solid #eee; text-align: left; }
+th { background: #2c3e50; color: #fff; }
+tr:hover { background: #f9fbfd; }
+.badge { padding: 4px 10px; border-radius: 12px; font-size: 12px; color: #fff; }
+.badge.available { background: #27ae60; }
+.badge.occupied { background: #c0392b; }
+.badge.maintenance { background: #e67e22; }
+.form-box {
+  background: #fff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  display: flex;
+  flex-direction: column;
+  max-width: 450px;
+}
+.form-box label { margin-top: 12px; font-weight: 600; font-size: 14px; }
+.form-box input, .form-box select {
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
